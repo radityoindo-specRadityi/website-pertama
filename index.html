@@ -1,11 +1,80 @@
-<!DOCTYPEhtml>
-<html>
-  <head>
-    <title>
-      Belajar Coding
-    </title>
-  </head>
-  <body>
-    <h1>Portofolio Radityo Lintang Sasongko</h1>
-  </body>
-  </html>
+/* Reset ringan */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #f4f6f8, #e9ecf1);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container utama */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Judul */
+h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Section */
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-left: 5px solid #4f46e5;
+  padding-left: 10px;
+}
+
+/* Cards layout */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  width: 220px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Gambar di card */
+.card img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Teks card */
+.card p {
+  font-weight: 600;
+}
