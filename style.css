@@ -132,3 +132,13 @@ a:hover {
     width: 90%;
   }
 }
+/* FOTO PROFIL */
+.profile-img {
+  width: 150px;        /* ukuran aman di HP */
+  height: 150px;
+  object-fit: cover;   /* biar ke-crop rapi */
+  object-position: top; /* fokus ke wajah */
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #4f46e5;
+}
