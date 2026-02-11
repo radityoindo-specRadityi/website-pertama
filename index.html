@@ -8,36 +8,51 @@
 </head>
 <body>
 
+  <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
   <div class="container">
 
     <!-- PROFILE HEADER -->
     <div class="profile">
       <img src="profile.jpg" alt="Foto Radityo" class="profile-img">
       <h1>Radityo Lintang Sasongko</h1>
-      <p class="subtitle">SMK TKJ Student • IT & Networking Learner</p>
+      <p class="subtitle">SMK TKJ Student • Networking & System Enthusiast</p>
     </div>
 
     <!-- ABOUT -->
     <section>
       <h2>About Me</h2>
       <p><strong>Nama:</strong> Radityo Lintang Sasongko</p>
-      <p><strong>Umur:</strong> 16</p>
+      <p><strong>Umur:</strong> 16 Tahun</p>
       <p><strong>Sekolah:</strong> SMK Islam 1 Blitar</p>
       <p>
-        Siswa jurusan Teknik Komputer dan Jaringan (TKJ) yang sedang mempelajari
-        jaringan komputer, instalasi sistem, dan dasar web.
+        Siswa jurusan Teknik Komputer dan Jaringan (TKJ) yang sedang
+        mendalami jaringan komputer, instalasi sistem operasi,
+        serta konfigurasi perangkat jaringan dasar.
       </p>
+    </section>
+
+    <!-- FOKUS PENGEMBANGAN -->
+    <section>
+      <h2>Fokus Pengembangan</h2>
+      <ul class="list">
+        <li>Administrasi Jaringan Dasar</li>
+        <li>Konfigurasi MikroTik & Routing</li>
+        <li>Manajemen IP Address</li>
+        <li>Instalasi & Troubleshooting Sistem</li>
+        <li>Simulasi Topologi Jaringan</li>
+      </ul>
     </section>
 
     <!-- SKILL -->
     <section>
       <h2>Keahlian TKJ</h2>
       <ul class="list">
-        <li>Perakitan & troubleshooting PC</li>
-        <li>Instalasi Windows (basic)</li>
-        <li>Kabel UTP (Straight & Cross)</li>
-        <li>IP Address & Topologi Jaringan (basic)</li>
-        <li>Cisco Packet Tracer (basic)</li>
+        <li>Perakitan & Troubleshooting PC</li>
+        <li>Instalasi Windows & Basic Linux</li>
+        <li>Crimping Kabel UTP (Straight & Cross)</li>
+        <li>IP Addressing & Topologi Dasar</li>
+        <li>Cisco Packet Tracer (Basic Simulation)</li>
       </ul>
     </section>
 
@@ -60,28 +75,29 @@
 
         <div class="card">
           <p><strong>Jaringan LAN Sederhana</strong></p>
-          <p>
-            Membuat LAN 2–3 PC dengan IP Address manual dan melakukan pengujian
-            koneksi menggunakan ping.
-          </p>
+          <p>Konfigurasi IP manual dan pengujian koneksi menggunakan ping.</p>
         </div>
 
         <div class="card">
-          <p><strong>Simulasi Jaringan</strong></p>
-          <p>
-            Simulasi topologi jaringan dasar menggunakan Cisco Packet Tracer.
-          </p>
+          <p><strong>Simulasi Topologi</strong></p>
+          <p>Membangun dan menguji topologi jaringan dasar.</p>
         </div>
 
         <div class="card">
           <p><strong>Konfigurasi MikroTik</strong></p>
-          <p>
-            Konfigurasi dasar router MikroTik untuk membangun dan mengelola
-            jaringan LAN agar terhubung ke internet.
-          </p>
+          <p>Setting dasar router agar jaringan terhubung internet.</p>
         </div>
 
       </div>
+    </section>
+
+    <!-- TUJUAN KARIER -->
+    <section>
+      <h2>Tujuan Karier</h2>
+      <p>
+        Mengembangkan kemampuan di bidang jaringan komputer dan sistem,
+        serta menjadi teknisi jaringan yang kompeten dan profesional.
+      </p>
     </section>
 
     <!-- ORGANISASI -->
@@ -91,17 +107,17 @@
 
         <div class="card">
           <img src="ippnu.png" alt="IPPNU">
-          <p>Berorganisasi di IPPNU</p>
+          <p>IPPNU</p>
         </div>
 
         <div class="card">
           <img src="pramuka.png" alt="Pramuka">
-          <p>Berorganisasi di Pramuka</p>
+          <p>Pramuka</p>
         </div>
 
         <div class="card">
           <img src="kommits.png" alt="Kommits TKJ">
-          <p>Berorganisasi di Kommits TKJ</p>
+          <p>Kommits TKJ</p>
         </div>
 
       </div>
@@ -120,6 +136,12 @@
     </section>
 
   </div>
+
+<script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+</script>
 
 </body>
 </html>
